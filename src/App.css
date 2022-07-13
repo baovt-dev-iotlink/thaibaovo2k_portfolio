@@ -333,7 +333,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
   opacity: 0.1;
-  transition: all .2s ease-in-out;;
+  transition: all .2s ease-in-out;
+  margin-top: 12px;
 }
 .skill-slider .item h3 {
   transition: .3s ease-in-out;
@@ -347,10 +348,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 @media (max-width: 768px) {
-  .item img {
+  .skill-slider .item img {
     opacity: 1;
   }
-  .item h3 {
+  .skill-slider .item h3 {
     opacity: 1;
   }
 }
@@ -642,4 +643,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+.react-multiple-carousel__arrow--left {
+  left: 0 !important;
+  top: 25%;
+}
+.react-multiple-carousel__arrow--right {
+  right: 0 !important;
+  top: 25%;
 }
