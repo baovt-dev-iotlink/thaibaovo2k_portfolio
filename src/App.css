@@ -682,8 +682,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     height: 50px !important;
   }
 }
-@media (max-width: 768px) {
-  .footer .social-icon {
-    justify-content: center;
-  }
+.footer .social-icon {
+  justify-content: center;
+}
+.footer .social-icon p {
+  display: flex;
+  justify-content: center;
 }
