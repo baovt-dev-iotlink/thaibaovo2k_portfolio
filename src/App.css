@@ -69,7 +69,7 @@ input:focus, textarea:focus, select:focus {
 
 @media (min-width:1700px) {
 	main .container {
-		max-width: 100%;
+		max-width: fit-content;
 		padding: 0 150px;
 	}
 }
