@@ -685,7 +685,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer .social-icon {
   justify-content: center;
 }
-.footer .social-icon p {
+.footer .footer-desc {
   display: flex;
   justify-content: center;
 }
